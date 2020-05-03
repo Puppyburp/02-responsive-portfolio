@@ -68,6 +68,23 @@ footer{
   margin: 0;
 }
 
+/* portfolio styles */
+
+.card-title {
+  background-color: rgba(131, 131, 131, 0.9);
+  width: 100%;
+  text-align: center;
+  padding: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: bold;
+}
+
+.card-img-overlay {
+  padding: 0;
+  top: 75%;
+}
+
 
 /* media queries */
 
