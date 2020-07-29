@@ -7,15 +7,17 @@
 
 <!-- bootstrap link -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- font awesome link -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 <!-- custom css styles -->
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 
 </head>
 
 <body>
   <!-- navigation -->
   <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">J.Walason</a>
+    <a class="navbar-brand" href="index.html"><img src="assets/images/j-5.png" class="img-fluid jennifer" alt="jennifer logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,38 +25,40 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="about.html">About</a>
         <a class="nav-item nav-link" href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
   <!-- main section -->
-  <main>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10">
-          <div class="page-header">
-            <h1>About Me</h1>
-          </div>
-            <hr>
-          <div class="row">
-            <div class="col-md-4">
-              <img src="assets/jlw-image.jpg" class="img-fluid image" alt="an image of a woman smiling">
-            </div>
-            <div class="col-md-6">
-              <p>Hi! I’m Jennifer. I’m a Senior Graphic Designer who is eagerly working on becoming a full stack developer!</p>
-              <p>I have over seven years of design experience and I'm knowledgeable in GIT, Visual Studio Code, GitHub, Bootstrap, the Adobe CC suite of programs (including XD, Photoshop, InDesign, Illustrator, After Effects), project management and project management software, and much more!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- end div for container -->
+  <main class="homepage">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 m-auto">
+        <h1 class="display-4">Welcome!</h1>
+        <p class="lead">I'm Jennifer, a Charlotte (North Carolina) based Designer + Developer. Oh, who's that good boy you're seeing on a walk? That's my sweet Goldendoodle, Fozzie. Allow him to lead you on a tour around my porfolio site!</p>
+        <a href="portfolio.html"><button class="btn btn-primary dog">My Work&nbsp;<i class="fas fa-angle-double-right"></i></button></a>
+      </div> <!-- end col-->
+      </div> <!-- end row-->
+    </div>
+  </div>
   </main>
   <!-- footer -->
   <footer class="page-footer">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <h6 class="text-center">&copy; Copyright 2020</h6>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <h3 class="text-center">
+            <a href="https://www.linkedin.com/in/jennifer-walason/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Puppyburp/"><i class="fab fa-github-square"></i></a>       
+          </h3>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h6 class="text-center">&copy; Copyright 2020</h6>
+          </div>
         </div>
       </div>
     </div>
@@ -63,6 +67,9 @@
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+  <!-- custom js -->
+  <!-- <script src="script.js"></script> -->
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
   <!-- Bootstrap JavaScript CDN -->

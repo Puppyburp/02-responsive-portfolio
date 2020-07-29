@@ -1,8 +1,13 @@
-# 02-responsive-portfolio
-Mobile responsive portfolio utilizing Bootstrap CSS Framework
+# 08-Portfolio
 
-### About the project
+Updated professional portfolio website, featuring design and code project examples, an about page, and a contact page.
 
-* Utilized Bootstrap, Google Fonts, HTML and CSS to design a 3 page portfolio mockup. 
+------------------------------------
 
+GitHub link to page: (https://puppyburp.github.io/)
 
+------------------------------------
+
+The following image demonstrates the application functionality:
+
+![portfolio](/assets/portfolio-demo.png)
